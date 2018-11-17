@@ -1,0 +1,57 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.st_logo {
+  width: 212px;
+  margin: 0 auto;
+  display: block;
+}
+
+.st_logo > img {
+  width: 100%;
+}
+
+.warning {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.stay-safe {
+	font-size: 12px;
+}
+
+.social {
+	text-align: center !important;
+	background: #16191c;
+}
+
+.social-menu {
+	margin-top: 25px !important;
+}
+
+.social-menu-item a {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: #2e3439;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.social-menu-item-icon {
+	width: 16px;
+	height: 16px;
+}
+
+hr {
+	border-color: #2e3439;
+	box-shadow: none;
+}
+
+table.container {
+  background-color: transparent !important;
+}

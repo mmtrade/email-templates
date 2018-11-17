@@ -1,0 +1,88 @@
+---
+subject: MMTrade - Sign In
+---
+
+<spacer size="30"></spacer>
+
+<container>
+  <spacer size="16"></spacer>
+
+  <row>
+    <columns>
+      <span class="st_logo">
+        <img src="https://raw.githubusercontent.com/mmtrade/design-guides/master/email-images/email-logo.png"/>
+      </span>
+    </columns>
+  </row>
+
+  <spacer size="16"></spacer>
+
+  <!-- begin -->
+
+  <row>
+    <columns>
+      <p>Hello, ${data.name}!</p>
+      <p>You (or someone who looks exactly like you) requested login verification code at <b>${data.datetime}</b><br/>The attempt was made from the following IP address: <b>${data.ip}</b><br/>Please, verify this operation by putting verification code below</p>
+    </columns>
+  </row>
+
+  <row>
+    <columns>
+      <h3>CODE{{{CODE}}}</h3>
+    </columns>
+  </row>
+
+  <row>
+    <columns>
+      <p class="warning">Do not send this code to someone. If you didn't this operation - please, change your password.</p>
+    </columns>
+  </row>
+
+
+  <row>
+    <columns>
+      <p class="stay-safe">Stay safe,</br>MMTrade Team</p>
+    </columns>
+  </row>
+
+  <!-- end -->
+
+  <row class="collapsed footer">
+    <columns>
+      <hr noshade></hr>
+      <spacer size="25"></spacer>
+      <p class="text-center">Have a question?</p>
+      <p class="text-center">
+        <a href="mailto:support@mmaker.trade">support@mmaker.trade</a>
+      </p>
+    </columns>
+  </row>
+
+  <row class="social">
+   <columns>
+    <center>
+      <menu class="social-menu">
+        <item class="social-menu-item" href="https://telegram.me/mmakertrade">
+          <img class="social-menu-item-icon" src="https://raw.githubusercontent.com/mmtrade/design-guides/master/email-images/email-social-icons/tg.png"/>
+        </item>
+
+        <item class="social-menu-item" href="https://linkedin.com/in/mmakertrade">
+          <img class="social-menu-item-icon" src="https://raw.githubusercontent.com/mmtrade/design-guides/master/email-images/email-social-icons/ln.png"/>
+        </item>
+
+        <item class="social-menu-item" href="https://github.com/mmakertrade">
+          <img class="social-menu-item-icon" src="https://raw.githubusercontent.com/mmtrade/design-guides/master/email-images/email-social-icons/gh.png"/>
+        </item>
+
+        <item class="social-menu-item" href="https://twitter.com/mmakertrade">
+          <img class="social-menu-item-icon" src="https://raw.githubusercontent.com/mmtrade/design-guides/master/email-images/email-social-icons/tw.png"/>
+        </item>
+
+        <item class="social-menu-item" href="https://vk.com/mmakertrade">
+          <img class="social-menu-item-icon" src="https://raw.githubusercontent.com/mmtrade/design-guides/master/email-images/email-social-icons/vk.png"/>
+        </item>
+      </menu>
+    </center>
+   </columns>
+  </row>
+</container>
